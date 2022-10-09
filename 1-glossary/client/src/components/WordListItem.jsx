@@ -31,7 +31,7 @@ const WordListItem = ({word, updateWordDefinition}) => {
       value={updatedDefinition}
       onChange={(event) => setUpdatedDefinition(event.target.value)}/>
       </form>
-      <button type="click" onClick={() => showForm()}>Edit</button>
+      <button className="edit-button" type="click" onClick={() => showForm()}>Edit</button>
     </div>
   )
 }

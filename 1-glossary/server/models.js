@@ -1,4 +1,3 @@
-var db = require('./db');
 const Word = require('./db');
 
 

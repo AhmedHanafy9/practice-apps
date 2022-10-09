@@ -47,7 +47,7 @@ const App = () => {
 
 
   return (
-    <div>
+    <div className="app">
       <nav className ='title-bar'>
         <h1>Glossary</h1>
       </nav>
